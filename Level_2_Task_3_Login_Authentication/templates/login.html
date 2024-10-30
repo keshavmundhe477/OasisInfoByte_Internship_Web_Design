@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Register</title>
+    <title>Login</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
 <div class="container">
-    <h2>Register</h2>
+    <h2>Login</h2>
     {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
         {% for category, message in messages %}
@@ -15,7 +15,7 @@
         {% endfor %}
       {% endif %}
     {% endwith %}
-    <form action="/register" method="POST">
+    <form action="/login" method="POST">
         <div class="form-group">
             <label>Username:</label>
             <input type="text" name="username" class="form-control" required>
@@ -24,9 +24,9 @@
             <label>Password:</label>
             <input type="password" name="password" class="form-control" required>
         </div>
-        <button type="submit" class="btn-primary">Register</button>
+        <button type="submit" class="btn-primary">Login</button>
     </form>
-    <p>Already have an account? <a href="/login">Login here</a>.</p>
+    <p>Don't have an account? <a href="/register">Register here</a>.</p>
 </div>
 </body>
 </html>
