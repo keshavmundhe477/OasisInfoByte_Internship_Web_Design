@@ -1,0 +1,163 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Card style for the image section */
+.card {
+    background-color: #eaeaea;
+    /* Light background for the card */
+    border: 1px solid #ddd;
+    /* Border around the card */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Padding inside the card */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Shadow effect for depth */
+    margin: 20px auto;
+    /* Center card with margin */
+}
+
+.image-container {
+    position: relative;
+    /* Positioning for overlay */
+    width: 100%;
+    /* Full width */
+    max-width: 400px;
+    /* Maximum width for image */
+    margin: 0 auto;
+    /* Center align */
+}
+
+.image-container img {
+    width: 100%;
+    /* Responsive image */
+    height: 400px;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+.bio {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    /* Center align with margin */
+    background-color: #fff;
+}
+
+.bio h2 {
+    color: #1c1c1c;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+.bio p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* New Records Section */
+.records {
+    padding: 20px;
+    background-color: #ffe680;
+    max-width: 800px;
+    margin: 20px auto;
+    /* Center align with margin */
+    border-left: 5px solid #ffcc00;
+}
+
+.records h2 {
+    color: #1c1c1c;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.records ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.records li {
+    font-size: 1.1em;
+    margin: 8px 0;
+}
+
+/* New Quotes Section */
+.quotes {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.quotes h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.quotes p {
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Add border and padding for quotes */
+.quotes {
+    border: 1px solid #ddd;
+    /* Border around quotes */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Padding inside quotes */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Shadow effect for depth */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p a {
+    color: #e6b800;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #f0c400;
+}
